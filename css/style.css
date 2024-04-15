@@ -18,3 +18,19 @@
 .gr-form-height {
     height: 300px;
 }
+
+.gr-top-footer-height {
+    height: 300px;
+}
+
+.gr-bottom-footer-height {
+    height: 100px;
+}
+
+.gr-top-footer-bg-color {
+    background-color: #3A546D;
+}
+
+.gr-bottom-footer-bg-color {
+    background-color: #2C3E50;
+}
