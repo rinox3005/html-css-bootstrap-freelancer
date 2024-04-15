@@ -2,3 +2,15 @@
 .gr-bg-header {
     background-color: #2C3E50;
 }
+
+.gr-bg-aqua {
+    background-color: #1ABC9C;
+}
+
+.gr-section-height {
+    height: 400px;
+}
+
+.gr-card-height {
+    height: 80px;
+}
