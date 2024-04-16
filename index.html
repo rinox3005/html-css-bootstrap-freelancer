@@ -20,7 +20,7 @@
 
 <body>
     <!-- Header -->
-    <header class="gr-bg-header py-3">
+    <header class="py-3">
         <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
             <div class="container text-uppercase">
                 <a class="navbar-brand fw-bolder" href="#">Start Bootstrap</a>
@@ -136,9 +136,42 @@
         <!-- Contact Me -->
         <section id="contact-me" class="mb-5">
             <div class="container">
-                <h3 class="text-center mb-4 text-uppercase">Contact Me</h3>
+                <h3 class="text-center mb-4 text-uppercase fw-semibold">Contact Me</h3>
+                <div class="pb-3 gr-section-divider align-items-center m-auto" style="--gr-divider-color: #2C3E50;">
+                    <div class="w-100">
+                        <hr class="line">
+                    </div>
+                    <i class="bi bi-star-fill fs-3 px-3"></i>
+                    <div class="w-100">
+                        <hr class="line">
+                    </div>
+                </div>
                 <div class="row">
-                    <div class="col-12 text-center gr-form-height border">Form</div>
+                    <div class="col-12 text-center fw-semibold">
+                        <div class="form-floating mb-3">
+                            <input type="name" class="form-control border-0 border-bottom rounded-0" id="floatingInput"
+                                placeholder="Name">
+                            <label for="floatingInput">Name</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control border-0 border-bottom rounded-0" id="floatingInput"
+                                placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control border-0 border-bottom rounded-0" id="floatingInput"
+                                placeholder="Number">
+                            <label for="floatingInput">Number</label>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control border-0 border-bottom rounded-0 fw-semibold" id="textarea"
+                                rows="6" placeholder="Message"></textarea>
+                        </div>
+                        <div class="text-start"><button type="button"
+                                class="btn gr-form-button fw-semibold pb-2">Send</button>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </section>
