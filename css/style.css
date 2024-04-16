@@ -14,14 +14,6 @@ main section:nth-child(odd) {
     background-color: #1ABC9C;
 }
 
-.gr-top-footer-height {
-    height: 300px;
-}
-
-.gr-bottom-footer-height {
-    height: 100px;
-}
-
 .gr-top-footer-bg-color {
     background-color: #3A546D;
 }
@@ -37,12 +29,30 @@ main section:nth-child(odd) {
 
 .gr-form-button:hover {
     background-color: #1da78b;
-    color: white;
+}
+
+.circled-icon {
+    background-color: transparent;
+    border: 1px solid white;
+    width: 50px;
+    height: 50px;
+    padding-top: 15px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+footer a {
+    color: #1ABC9C;
+}
+
+.copyright-size {
+    font-size: 13px;
+    padding-top: 40px;
 }
 
 /* Media Query */
 @media screen and (min-width: 992px) {
     :root {
-        --gr-divider-width: 30%;
+        --gr-divider-width: 25%;
     }
 }
