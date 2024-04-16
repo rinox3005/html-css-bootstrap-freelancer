@@ -1,3 +1,10 @@
+/* Root */
+:root {
+    --gr-divider-width: 50%;
+    --gr-divider-color: white;
+    --gr-divider-height: 3px;
+}
+
 /* Background Colors */
 .gr-bg-header {
     background-color: #2C3E50;
@@ -33,4 +40,11 @@
 
 .gr-bottom-footer-bg-color {
     background-color: #2C3E50;
+}
+
+/* Media Query */
+@media screen and (min-width: 992px) {
+    :root {
+        --gr-divider-width: 30%;
+    }
 }

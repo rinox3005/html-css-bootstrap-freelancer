@@ -1,0 +1,13 @@
+/* Section Divider */
+.gr-section-divider {
+    display: flex;
+    width: var(--gr-divider-width);
+    color: var(--gr-divider-color);
+}
+
+.gr-section-divider .line {
+    border-width: var(--gr-divider-height);
+    border-color: var(--gr-divider-color);
+    border-radius: 3px;
+    opacity: 1;
+}
