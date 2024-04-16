@@ -3,6 +3,14 @@
     --gr-divider-width: 50%;
     --gr-divider-color: white;
     --gr-divider-height: 3px;
+    --gr-circled-icon-width: 50px;
+    --gr-circled-icon-height: 50px;
+    --gr-circled-icon-font-size: 20px;
+    --gr-circled-icon-border-weight: 1px;
+    --gr-circled-icon-border-type: solid;
+    --gr-circled-icon-border-color: white;
+    --gr-circled-icon-bg-color: transparent;
+    --gr-circled-icon-radius: 50%;
 }
 
 /* Background Colors */
@@ -29,16 +37,6 @@ main section:nth-child(odd) {
 
 .gr-form-button:hover {
     background-color: #1da78b;
-}
-
-.circled-icon {
-    background-color: transparent;
-    border: 1px solid white;
-    width: 50px;
-    height: 50px;
-    padding-top: 15px;
-    font-size: 20px;
-    border-radius: 50%;
 }
 
 footer a {

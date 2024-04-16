@@ -1,0 +1,11 @@
+/* Circled Icon */
+.gr-circled-icon {
+    display: grid;
+    place-items: center;
+    background-color: var(--gr-circled-icon-bg-color);
+    border: var(--gr-circled-icon-border-weight) var(--gr-circled-icon-border-type) var(--gr-circled-icon-border-color);
+    width: var(--gr-circled-icon-width);
+    height: var(--gr-circled-icon-height);
+    font-size: var(--gr-circled-icon-font-size);
+    border-radius: var(--gr-circled-icon-radius);
+}
