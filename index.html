@@ -15,7 +15,7 @@
     <!-- Link CSS -->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="/css/components/section-divider.css">
-
+    <link rel="stylesheet" href="/css/components/circled-icon.css">
 </head>
 
 <body>
@@ -164,8 +164,11 @@
                             <label for="floatingInput">Number</label>
                         </div>
                         <div class="mb-3">
-                            <textarea class="form-control border-0 border-bottom rounded-0 fw-semibold" id="textarea"
-                                rows="6" placeholder="Message"></textarea>
+                            <div class="form-floating">
+                                <textarea class="form-control border-0 border-bottom rounded-0 fw-semibold"
+                                    placeholder="Leave a comment here" rows="6" id="floatingTextarea"></textarea>
+                                <label for="floatingTextarea">Message</label>
+                            </div>
                         </div>
                         <div class="text-start"><button type="button"
                                 class="btn gr-form-button fw-semibold pb-2">Send</button>
@@ -187,11 +190,19 @@
                     </div>
                     <div class="col-12 col-lg-4 col-xl-4 pb-5 pb-lg-3">
                         <h6 class="text-uppercase fw-semibold">Around the web</h6>
-                        <div>
-                            <i class="fab fa-facebook-f circled-icon"></i>
-                            <i class="fab fa-google-plus-g circled-icon"></i>
-                            <i class="fab fa-twitter circled-icon"></i>
-                            <i class="fab fa-linkedin-in circled-icon"></i>
+                        <div class="d-flex justify-content-center">
+                            <div class="px-1">
+                                <i class="fab fa-facebook-f gr-circled-icon"></i>
+                            </div>
+                            <div class="px-1">
+                                <i class="fab fa-google-plus-g gr-circled-icon"></i>
+                            </div>
+                            <div class="px-1">
+                                <i class="fab fa-twitter gr-circled-icon"></i>
+                            </div>
+                            <div class="px-1">
+                                <i class="fab fa-linkedin-in gr-circled-icon"></i>
+                            </div>
                         </div>
                     </div>
                     <div class="col-12 col-lg-4 col-xl-4">
