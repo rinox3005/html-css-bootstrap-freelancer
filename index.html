@@ -12,47 +12,61 @@
 
 <body>
     <!-- Header -->
-    <header class="gr-bg-header">
-        <div class="container">
-            <div class="row">
-                <div class="col text-light">Logo</div>
-                <div class="col d-md-none d-lg-none text-light text-end">Burger</div>
-                <div class="col d-none d-sm-none d-md-block d-lg-block text-light text-end">List Menu</div>
+    <header class="gr-bg-header py-3">
+        <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
+            <div class="container text-uppercase">
+                <a class="navbar-brand fw-bolder" href="#">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto fw-bold">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" href="#">Features</a>
+                        <a class="nav-link active" href="#">Pricing</a>
+                    </div>
+                </div>
             </div>
-        </div>
+        </nav>
     </header>
     <main>
         <!-- Jumbo -->
-        <section id="jumbo" class="gr-bg-aqua gr-section-height mb-5">
+        <section id="jumbo" class="gr-bg-aqua gr-section-height py-4">
             <div class="container">
-                <div class="row">
-                    <div class="col text-center text-uppercase">
+                <div class="row justify-content-center">
+                    <div class="col-8 text-center text-uppercase">
+                        <div>image</div>
                         <h2>Start Bootstrap</h2>
+                        <div>Star</div>
+                        <div>graphic artist - web design - illustrator</div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- Portfolio -->
         <section id="portfolio" class="mb-5">
-            <div class="container">
-                <h2 class="text-center mb-4 text-uppercase">Portfolio</h2>
-                <div class="row g-4">
-                    <div class="col-12 col-md-6 col-lg-4">
+            <div class="container text-center">
+                <h2 class="py-4 text-uppercase">Portfolio</h2>
+                <div>Star</div>
+                <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3 g-4">
+                    <div class="col">
                         <div class="card gr-card-height">House</div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col">
                         <div class="card gr-card-height">Cake</div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col">
                         <div class="card gr-card-height">Circus</div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col">
                         <div class="card gr-card-height">Game</div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col">
                         <div class="card gr-card-height">Safe</div>
                     </div>
-                    <div class="col-12 col-md-6 col-lg-4">
+                    <div class="col">
                         <div class="card gr-card-height">Submarine</div>
                     </div>
                 </div>
@@ -63,13 +77,13 @@
             <div class="container px-5">
                 <div class="row">
                     <h3 class="text-center text-uppercase">About</h3>
-                    <div class="col-12 col-md-6 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam,
+                    <div class="col-12 col-lg-6 mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam,
                         doloremque
                         dolor
                         labore, ipsa voluptatibus delectus obcaecati ad sapiente cum sit numquam aliquid laudantium
                         rerum
                         repellendus molestias eos quos mollitia accusamus.</div>
-                    <div class="col-12 col-md-6 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+                    <div class="col-12 col-lg-6 mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
                         quasi
                         culpa
                         soluta
@@ -94,9 +108,9 @@
         <div class="gr-top-footer-bg-color">
             <div class="container gr-top-footer-height">
                 <div class="row text-center">
-                    <div class="col-12 col-md-4 col-lg-4">Location</div>
-                    <div class="col-12 col-md-4 col-lg-4">Around the web</div>
-                    <div class="col-12 col-md-4 col-lg-4">About freelancer</div>
+                    <div class="col-12 col-lg-4 col-xl-4">Location</div>
+                    <div class="col-12 col-lg-4 col-xl-4">Around the web</div>
+                    <div class="col-12 col-lg-4 col-xl-4">About freelancer</div>
                 </div>
             </div>
         </div>
@@ -107,6 +121,11 @@
         </div>
 
     </footer>
+
+    <!-- js boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
